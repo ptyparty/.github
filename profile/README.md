@@ -17,21 +17,21 @@ can do this for multiple tabs, with one Claude running per tab.
 
 Like this:
 
-![a qmux tab with quoll on the left, remax on the right, and native Claude docked below, asking a question through a popup](https://raw.githubusercontent.com/ptyparty/qmux/main/docs/qmux.gif)
+![a komux tab with quoll on the left, remax on the right, and native Claude docked below, asking a question through a popup](https://raw.githubusercontent.com/ptyparty/komux/main/docs/komux.gif)
 
-This shows a layout in `qmux` that has `quoll` (a terminal markdown browser) on the left,
+This shows a layout in `komux` that has `quoll` (a terminal markdown browser) on the left,
 `remax` (a code review tool) on the right. Claude is running in the background and is prompted
-directly via `qmux`, asks questions through `qmux` and interacts with `quoll` and `remax`.
+directly via `komux`, asks questions through `komux` and interacts with `quoll` and `remax`.
 
 So, here are the tools. These are considered *highly experimental*, and are changing very
-quickly at the moment, so please keep that in mind. You don't have to use `qmux` to use
+quickly at the moment, so please keep that in mind. You don't have to use `komux` to use
 any of them either!
 
 ## The crew
 
 | | | |
 |---|---|---|
-| <img src="https://raw.githubusercontent.com/ptyparty/qmux/main/docs/qmux.svg" alt="qmux logo" width="64"> | **[qmux](https://github.com/ptyparty/qmux)** | A terminal multiplexer that agents can interact with |
+| <img src="https://raw.githubusercontent.com/ptyparty/komux/main/docs/komux.svg" alt="komux logo" width="64"> | **[komux](https://github.com/ptyparty/komux)** | A terminal multiplexer that agents can interact with |
 | <img src="https://raw.githubusercontent.com/ptyparty/quoll/main/docs/quoll.svg" alt="quoll logo" width="64"> | **[quoll](https://github.com/ptyparty/quoll)** | A markdown viewer that you can use to iterate on design with an agent |
 | <img src="https://raw.githubusercontent.com/ptyparty/remax/main/docs/remax.svg" alt="remax logo" width="64"> | **[remax](https://github.com/ptyparty/remax)** | A code review focused editor that lets you review code diffs hunk by hunk |
 | <img src="https://raw.githubusercontent.com/ptyparty/kowari/main/docs/kowari.svg" alt="kowari logo" width="64"> | **[kowari](https://github.com/ptyparty/kowari)** | A PostgreSQL client for the terminal designed to be used alongside an agent |
